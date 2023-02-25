@@ -3,9 +3,9 @@ import datetime  # import datetime to setup copyright year
 AUTHOR = 'Angelo Theodoropoulos'
 SITEURL = "https://maskedweegee.github.io"
 SITENAME = 'MaskedWeegee\'s Internet Corner'
-SITETITLE = "MaskedWeegee"
-SITESUBTITLE = "IT student, artist and machinimist with a special interest in Linux"
-SITEDESCRIPTION = "MaskedWeegee's site, mostly used as a way to share his thoughts."
+SITETITLE = "MaskedWeegee's Internet Corner"
+SITESUBTITLE = "A 21 year old IT student who is interested in tech, Machinimas, and a bit of gaming."
+SITEDESCRIPTION = "Personal blog I guess."
 # SITELOGO = ''
 # FAVICON = '' You can add your favicon path here
 BROWSER_COLOR = "#333333"
@@ -17,10 +17,10 @@ TIMEZONE = 'Europe/Athens'  # Change this to your current TIMEZONE
 
 DEFAULT_LANG = 'en'
 
-OUTPUT_PATH = "output"  # you can change that to public
+OUTPUT_PATH = "docs"  # you can change that to public
 # Feed generation is usually not desired when developing
 
-FEED_DOMAIN = "maskedweegee.github.io/output"
+FEED_DOMAIN = "maskedweegee.github.io/docs"
 
 FEED_ALL_ATOM = 'feed.xml'
 FEED_MAX_ITEMS = 100
@@ -69,15 +69,16 @@ MENUITEMS = (
 )
 
 # AUTHOR
-AUTHOR_INTRO = 'Hey! I\'m a 21-year old IT student who is interested in Art, Machinimas, and tech.'
+AUTHOR_INTRO = 'Hey, I am a dude who is interested in a lot of stuff.'
 #AUTHOR_WEB = '<website-link>'
 
 # Social widget
 SOCIAL = (
-    ('twitter', 'https://twitter.com/MaskedWeegee'),
-    ('mastodon', "https://mastodon.social/@maskedweegee"),
-    ("envelope", "mailto:paok899@hotmail.com"),
-    #("telegram", '<your-telegram-link>',)
+    ('github', 'https://github.com/MaskedWeegee'),
+    ('twitter', "https://twitter.com/MaskedWeegee"),
+    ("mastodon", 'https://mastodon.social/@maskedweegee',),
+    ("envelope", "mailto:paok899@hotmail.com")
+
 )
 
 MARKDOWN = {
